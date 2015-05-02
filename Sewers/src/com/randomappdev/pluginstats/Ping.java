@@ -130,7 +130,7 @@ class Pinger implements Runnable
                     plugin.getServer().getPort(),
                     guid,
                     URLEncoder.encode(Bukkit.getVersion(), "UTF-8"),
-                    plugin.getServer().getOnlinePlayers().length,
+                    plugin.getServer().getOnlinePlayers().size(),
                     URLEncoder.encode(plugin.getDescription().getName(), "UTF-8"),
                     URLEncoder.encode(plugin.getDescription().getMain(), "UTF-8"),
                     URLEncoder.encode(authors, "UTF-8"),
